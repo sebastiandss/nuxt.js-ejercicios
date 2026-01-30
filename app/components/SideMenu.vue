@@ -22,7 +22,6 @@
 </template>
 
 <style scoped>
-    /* Importamos Sora por si no está cargada globalmente */
     @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap');
 
     .side-menu {
@@ -33,8 +32,7 @@
         width: 260px;
         /* Color camuflado con el fondo principal */
         background-color: rgb(15, 15, 15); 
-        /* Un borde sutil para que se note la separación al abrirse */
-        border-right: 1px solid rgba(255, 255, 255, 0.05); 
+        border-right: 1px solid rgb(15, 15, 15); 
         z-index: 1000;
         font-family: 'Sora', sans-serif;
         

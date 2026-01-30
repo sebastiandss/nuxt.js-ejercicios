@@ -10,5 +10,6 @@
   body{
     background: rgb(15, 15, 15);
     color: white;
+
   }
 </style>

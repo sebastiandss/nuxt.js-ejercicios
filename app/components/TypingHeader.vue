@@ -14,6 +14,8 @@
       <p class="best-score">Personal best: <span>{{ best }} WPM</span></p>
     </div>
   </header>
+
+  
 </template>
 
 <style scoped>
